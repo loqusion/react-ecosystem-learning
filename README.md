@@ -165,7 +165,7 @@ These tools help ensure code quality and consistency. A must for every project t
 
 ### Modern Architecture
 
-[Remix](https://remix.run/) (for inspiration, and not *necessarily* to use due to adoption costs)
+[Remix](https://remix.run/)
 
 ## Misc. Resources
 
