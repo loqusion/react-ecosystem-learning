@@ -101,7 +101,7 @@
 
 ## Dev Tools
 
-These tools help ensure code quality and consistency. A must for every project that grows in size over time, for maintainability reasons.
+These tools help ensure code quality and consistency. A must for every codebase that will grow to a significant size over time, for maintainability reasons.
 
 [Editorconfig](https://editorconfig.org/)
 
