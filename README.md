@@ -11,7 +11,7 @@
 
 [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web)
 
-Don't use w3schools. MDN is better in every way. If it appears in the top of your search results (which it likely will), do yourself a favor and install an extension like [uBlacklist](https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe) and block it so that it doesn't take up space.
+> Don't use w3schools. MDN is better in every way. If it appears in the top of your search results (which it likely will), I recommend installing an extension like [uBlacklist](https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe) and blocking it so that it doesn't take up space.
 
 [web.dev](https://web.dev/)
 
@@ -25,7 +25,7 @@ Don't use w3schools. MDN is better in every way. If it appears in the top of you
 
 [React Main Concepts](https://reactjs.org/docs/hello-world.html)
 
-Note: The React tutorials use class components, but functional components with hooks are preferred. There isn't much reason to use class components over functional components any more, besides when optimizations are needed that can't be implemented with hooks (e.g. `shouldComponentUpdate`).
+> The React tutorials use class components, but functional components with hooks are preferred. There isn't much reason to use class components over functional components any more, besides when optimizations are needed that can't be implemented with hooks (e.g. `shouldComponentUpdate`).
 
 [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
@@ -45,23 +45,23 @@ Note: The React tutorials use class components, but functional components with h
 
 [Yarn](https://yarnpkg.com/)
 
-- I mostly use Yarn 1, but migrating to Yarn 2 is something to look into for projects not using React Native ([it's incompatible with Yarn 2's PnP](https://yarnpkg.com/features/pnp#incompatible)).
+> I mostly use Yarn 1, but migrating to Yarn 2 is something to look into for projects not using React Native ([it's incompatible with Yarn 2's PnP](https://yarnpkg.com/features/pnp#incompatible)).
 
 ## NextJS/Vercel
 
 ### [NextJS Docs](https://nextjs.org/docs/getting-started)
 
-Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+> Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
 
 ### [SWR](https://swr.vercel.app/)
 
-The name “SWR” is derived from stale-while-revalidate, a HTTP cache invalidation strategy popularized by [HTTP RFC 5861](https://tools.ietf.org/html/rfc5861). SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
+> The name “SWR” is derived from stale-while-revalidate, a HTTP cache invalidation strategy popularized by [HTTP RFC 5861](https://tools.ietf.org/html/rfc5861). SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
 
 ## Design Systems
 
-Design systems consist of common reusable UI components that serve as the backbone of a UI. Using a design system makes development faster and easier by isolating components, and it facilitates a cohesive user experience.
-
-[Storybook](https://storybook.js.org/) is a popular tool used to create design systems. It also helps you document components and automatically visually test your components to prevent bugs.
+> Design systems consist of common reusable UI components that serve as the backbone of a UI. Using a design system makes development faster and easier by isolating components, and it facilitates a cohesive user experience.
+>
+> [Storybook](https://storybook.js.org/) is a popular tool used to create design systems. It also helps you document components and automatically visually test your components to prevent bugs.
 
 ### Popular UI Frameworks
 
@@ -101,7 +101,7 @@ Design systems consist of common reusable UI components that serve as the backbo
 
 ## Dev Tools
 
-These tools help ensure code quality and consistency. A must for every project that requires codebase scalability.
+These tools help ensure code quality and consistency. A must for every project that grows in size over time, for maintainability reasons.
 
 [Editorconfig](https://editorconfig.org/)
 
@@ -117,7 +117,7 @@ These tools help ensure code quality and consistency. A must for every project t
 
 ## Monorepo Workflow
 
-Monorepos are used to contain multiple related packages. For instance, a full-stack application could have a backend `api` package and frontend `web` and `mobile` packages, with shared assets, tools, constants, etc. in a `common` package. See [Babel's monorepo.md](https://github.com/nicolo-ribaudo/babel/blob/7c332835fed6ff975d2cffcba5f83490a5704383/doc/design/monorepo.md) for more discussion on monorepos.
+> Monorepos are used to contain multiple related packages. For instance, a full-stack application could have a backend `api` package and frontend `web` and `mobile` packages, with shared assets, tools, constants, etc. in a `common` package. See [Babel's monorepo.md](https://github.com/nicolo-ribaudo/babel/blob/7c332835fed6ff975d2cffcba5f83490a5704383/doc/design/monorepo.md) for more discussion on monorepos.
 
 ### Monorepo Tools
 
@@ -129,7 +129,7 @@ Monorepos are used to contain multiple related packages. For instance, a full-st
 
 ## Mocking
 
-Using a mock server instead of a real backend allows you to develop the frontend independently from the backend. This saves development time and makes debugging easier by reducing the span of potentially faulty code to just the frontend. It also just streamlines the DX (Developer eXperience) overall imo.
+> Using a mock server instead of a real backend allows you to develop the frontend independently from the backend. This saves development time and makes debugging easier by reducing the span of potentially faulty code to just the frontend. It also just streamlines the DX (Developer eXperience) overall imo.
 
 [Postman](https://www.postman.com/)
 
@@ -137,7 +137,7 @@ Using a mock server instead of a real backend allows you to develop the frontend
 
 ## Deep-Dive
 
-You usually won't have to work directly with these, but it helps to know they exist and how they convert your code into assets used in actual production, especially for performance reasons. Knowing some basic configuration options can also be useful.
+> You usually won't have to work directly with these, but it helps to know they exist and how they convert your code into assets used in actual production, especially for performance reasons. Knowing some basic configuration options can also be useful.
 
 ### Code Transpilation/Bundling
 
