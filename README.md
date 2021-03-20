@@ -45,7 +45,7 @@ Note: The React tutorials use class components, but functional components with h
 
 [Yarn](https://yarnpkg.com/)
 
-- We currently use Yarn 1, but migrating to Yarn 2 is something to look into for projects not using React Native ([it's incompatible with Yarn 2's PnP](https://yarnpkg.com/features/pnp#incompatible)).
+- I mostly use Yarn 1, but migrating to Yarn 2 is something to look into for projects not using React Native ([it's incompatible with Yarn 2's PnP](https://yarnpkg.com/features/pnp#incompatible)).
 
 ## NextJS/Vercel
 
@@ -59,9 +59,9 @@ The name “SWR” is derived from stale-while-revalidate, a HTTP cache invalida
 
 ## Design Systems
 
-Design systems consist of common reusable UI components that serve as the backbone of a UI. Using a design system significantly speeds up development and facilitates a cohesive user experience.
+Design systems consist of common reusable UI components that serve as the backbone of a UI. Using a design system makes development faster and easier by isolating components, and it facilitates a cohesive user experience.
 
-[Storybook](https://storybook.js.org/) is a popular tool used to create design systems. It makes development faster and easier by isolating components. It also helps you document components and automatically visually test your components to prevent bugs.
+[Storybook](https://storybook.js.org/) is a popular tool used to create design systems. It also helps you document components and automatically visually test your components to prevent bugs.
 
 ### Popular UI Frameworks
 
