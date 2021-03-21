@@ -57,9 +57,9 @@
 
 > The name “SWR” is derived from stale-while-revalidate, a HTTP cache invalidation strategy popularized by [HTTP RFC 5861](https://tools.ietf.org/html/rfc5861). SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
 
-## Design Systems
+## Component Libraries
 
-> Design systems consist of common reusable UI components that serve as the backbone of a UI. Using a design system makes development faster and easier by isolating components, and it facilitates a cohesive user experience.
+> Component libraries consist of common reusable UI components that serve as the backbone of a UI. Using a component library makes development faster and easier by isolating components, and it ensures a consistent user experience.
 >
 > [Storybook](https://storybook.js.org/) is a popular tool used to create design systems. It also helps you document components and automatically visually test your components to prevent bugs.
 
