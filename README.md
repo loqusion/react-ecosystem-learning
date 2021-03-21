@@ -59,9 +59,9 @@
 
 ## Component Libraries
 
-> Component libraries consist of common reusable UI components that serve as the backbone of a UI. Using a component library makes development faster and easier by isolating components, and it ensures a consistent user experience.
->
-> [Storybook](https://storybook.js.org/) is a popular tool used to create design systems. It also helps you document components and automatically visually test your components to prevent bugs.
+Component libraries consist of common reusable UI components that serve as the backbone of a UI. Using a component library makes development faster and easier by isolating components, and it ensures a consistent user experience.
+
+[Storybook](https://storybook.js.org/) is a popular tool used to create design systems. It also helps you document components and automatically visually test your components to prevent bugs.
 
 ### Popular UI Frameworks
 
@@ -101,7 +101,7 @@
 
 ## Dev Tools
 
-> These tools help ensure code quality and consistency. A must for every codebase that will grow to a significant size over time, for maintainability reasons.
+These tools help ensure code quality and consistency. A must for every codebase that will grow to a significant size over time, for maintainability reasons.
 
 [Editorconfig](https://editorconfig.org/)
 
@@ -117,7 +117,7 @@
 
 ## Monorepo Workflow
 
-> Monorepos are used to contain multiple related packages. For instance, a full-stack application could have a backend `api` package and frontend `web` and `mobile` packages, with shared assets, tools, constants, etc. in a `common` package. See [Babel's monorepo.md](https://github.com/nicolo-ribaudo/babel/blob/7c332835fed6ff975d2cffcba5f83490a5704383/doc/design/monorepo.md) for more discussion on monorepos.
+Monorepos are used to contain multiple related packages. For instance, a full-stack application could have a backend `api` package and frontend `web` and `mobile` packages, with shared assets, tools, constants, etc. in a `common` package. See [Babel's monorepo.md](https://github.com/nicolo-ribaudo/babel/blob/7c332835fed6ff975d2cffcba5f83490a5704383/doc/design/monorepo.md) for more discussion on monorepos.
 
 ### Monorepo Tools
 
@@ -129,7 +129,7 @@
 
 ## Mocking
 
-> Using a mock server instead of a real backend allows you to develop the frontend independently from the backend. This saves development time and makes debugging easier by reducing the span of potentially faulty code to just the frontend. It also just streamlines the DX (Developer eXperience) overall imo.
+Using a mock server instead of a real backend allows you to develop the frontend independently from the backend. This saves development time and makes debugging easier by reducing the span of potentially faulty code to just the frontend. It also just streamlines the DX (Developer eXperience) overall imo.
 
 [Postman](https://www.postman.com/)
 
@@ -137,7 +137,7 @@
 
 ## Deep-Dive
 
-> You usually won't have to work directly with these, but it helps to know they exist and how they convert your code into assets used in actual production, especially for performance reasons. Knowing some basic configuration options can also be useful.
+You usually won't have to work directly with these, but it helps to know they exist and how they convert your code into assets used in actual production, especially for performance reasons. Knowing some basic configuration options can also be useful.
 
 ### Code Transpilation/Bundling
 
