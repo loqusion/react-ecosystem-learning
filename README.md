@@ -97,8 +97,6 @@ Component libraries consist of common reusable UI components that serve as the b
 
 ## Dev Tools
 
-These tools help ensure code quality and consistency. A must for every codebase that will grow to a significant size over time, for maintainability reasons.
-
 [Editorconfig](https://editorconfig.org/)
 
 [ESLint](https://eslint.org/)
