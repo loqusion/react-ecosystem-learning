@@ -3,7 +3,7 @@
 ## General Tips
 
 - View projects on GitHub for inspiration - e.g. packages, code style, configuration, project structure
-  - Some of my favorites: [useSWR](https://github.com/vercel/swr), [Storybook Design System](https://github.com/storybookjs/design-system), [Storybook Frontpage](https://github.com/storybookjs/frontpage), [Carbon Design System](https://github.com/carbon-design-system/carbon), [Angular](https://github.com/angular/angular), [NextJS](https://github.com/vercel/next.js/)
+  - Some of my favorites: [MUI](https://github.com/mui-org/material-ui), [Storybook Design System](https://github.com/storybookjs/design-system), [Storybook Frontpage](https://github.com/storybookjs/frontpage), [NextJS](https://github.com/vercel/next.js/), [useSWR](https://github.com/vercel/swr)
 
 ## Fundamentals
 
@@ -11,7 +11,7 @@
 
 [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web)
 
-> Don't use w3schools. MDN is better in every way. If it appears in the top of your search results (which it likely will), I recommend installing an extension like [uBlacklist](https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe) and blocking it so that it doesn't take up space.
+> w3schools will often appear at the top of search engine results, instead of MDN. To block it, you can install an extension like [uBlacklist](https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe).
 
 [web.dev](https://web.dev/)
 
@@ -24,8 +24,6 @@
 ### React
 
 [React Main Concepts](https://reactjs.org/docs/hello-world.html)
-
-> The React tutorials use class components, but functional components with hooks are preferred. There isn't much reason to use class components over functional components any more, besides when optimizations are needed that can't be implemented with hooks (e.g. `shouldComponentUpdate`).
 
 [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
@@ -44,8 +42,6 @@
 [NPM](https://docs.npmjs.com/about-npm)
 
 [Yarn](https://yarnpkg.com/)
-
-> I mostly use Yarn 1, but migrating to Yarn 2 is something to look into for projects not using React Native ([it's incompatible with Yarn 2's PnP](https://yarnpkg.com/features/pnp#incompatible)).
 
 ## NextJS/Vercel
 
@@ -129,11 +125,9 @@ Monorepos are used to contain multiple related packages. For instance, a full-st
 
 ## Mocking
 
-Using a mock server instead of a real backend allows you to develop the frontend independently from the backend. This saves development time and makes debugging easier by reducing the span of potentially faulty code to just the frontend. It also just streamlines the DX (Developer eXperience) overall imo.
+[MirageJS](https://miragejs.com/)
 
 [Postman](https://www.postman.com/)
-
-[MirageJS](https://miragejs.com/) (I haven't personally used it but it looks like a great alternative to Postman)
 
 ## Deep-Dive
 
